@@ -16,6 +16,4 @@ I hope my rambling introduction wasn't too hard to follow, but if it was, my mat
 
 ## Topics
 
-Below is a running list of the topics I have written so far. My plan is to work on cirruculum from 6th to 12th grade, but it will probably be a long process before I finish everything. 
-
-### Operations 
+I have split my class notes/topics into classes for each year from 6th to 12th grade. It will take a while for me to fully fill out all of the topics I want to cover, so right now they are not all there yet. You can access information on the topics covered below: 
