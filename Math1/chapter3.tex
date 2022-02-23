@@ -1,0 +1,280 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{scalerel}
+
+\def\msquare{\mathord{\scalerel*{\Box}{gX}}}
+
+\graphicspath{ {./chap2images/} }
+
+\oddsidemargin=-.3in
+\evensidemargin=-.5in
+\textwidth=7in
+\topmargin=-1in
+\textheight=10in
+
+\parindent=.2in
+\pagestyle{plain}
+
+\title{\textbf{Variables and Expressions} \\ \large Math 1 - Chapter 3}
+\author{Theo Rode}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Up until now, you have probably been led to believe that math is about numbers. You may be surprised to find out that most of math from here on in actually uses letters! 
+Well, this isn't entirely true. Math is about logic, creativity, and exporation, just for reasons you will find soon, this involves a lot of letters. 
+
+But what do I mean by letters in math? Aren't letters for writing and reading? Well, maybe you should keep reading to find out:
+
+\section*{Variables}
+
+What do you think of when you hear ``variable''? Words like ``inconsistent'' and ``changing'' probably come to mind. So what does this have to do with math? 
+Well, before I talk about variables in math, I am going to try and justify to you why it is important that they exist. 
+
+In the world around you, how much of it is constant? Is the time of day constant? Are you always walking at the same speed? Or do you speed up and slow down depending on how tired you are, how hungry you are, how hot it is, etc? Heck, are any of the factors I just listed constant? 
+
+Yeah, so none of those are really constant. They are changing as you go about your life, always evolving, and always shifting. Now many of you are probably saying: 
+\begin{center}
+    ``So what things are changing in our world, what do changing values have to do with math?''
+\end{center}
+
+Well, one of the amazing things about math is its ability to model the world around us. Math is the language we use to describe how your car moves or how a bird flies through the air. It is the language that describes the atoms that make you up and the planet you are standing on. And all of these things that we use math to describe lack consistency. The bird changes location in the sky. The wind changes direction, speed, in turn changing that for the bird. 
+
+So how do we model these changes in math? Variables! 
+
+Alright, enough of these justifications, what \textbf{is} a variable? Here is a variable:
+\[  a \]
+
+Or here:
+\[ b \]
+
+Or here: 
+\[ \msquare \]
+
+Or like this: $c$, this: $z$, this: $h$, this $\alpha$, this: $\mu$, this: $\phi$, etc. 
+
+And you just listed a bunch of random letters and symbols. Of course I did! So a variable can be represented by any of these. Really any letter, symbol, character can be used, and is used, as a variable in math. 
+But a variable isn't really about how it looks, but about what it \textbf{represents}. And what does a variable represent? 
+\begin{center}
+    A number. 
+\end{center}
+
+Yep, just a number. 
+
+So what does it look like when we use variables? Well, here is me using a variable: 
+\[ x + 7 \]
+
+In this instance, $x$ is the variable. And what does $x+7$ equal? Well, as far as we know it simply equals $x+7$. This is a perfectly reasonable number, just how $9+3$ is a number. But for $9+3$ we can instead just use $12$ as we know $9+3=12$. 
+
+Now because we keep $x+7$ as its own number (we can't simplify it). We call this an \textbf{expression}. We will talk more about expressions in a bit, but briefly let's talk about what we can do with this expression. 
+
+Say we have the same expression/value as before: 
+\[ x+7 \]
+
+We can look at what number this would be if $x=10$: 
+\[ x + 7 = 10 + 7 = 17 \]
+
+Or if $x=5$:
+\[ x + 7 = 5 + 7 = 12 \]
+
+But, we generally think of an expression like this as representing all of the possible values for $x$. $x+7$ represents the situation when $x=10$ or when $x=5$ or $x=-100$ or any other value. This is why we use variables. We can do the math to calculate what the wind speed should be based on the temperature for a given day, and then just plug in the temperature each day rather than doing the math for each temperature. 
+
+It is actually really cool! 
+
+\section*{Expressions}
+Earlier I said that $x+7$ is an expression. But what does it mean for something to be an expression? Well, an expression is really just anything that represents a value. So any of the following could be an expression: 
+\[ x+7 \]
+\[ x + 10 \]
+\[ x + y \]
+\[ 9 + 2 \]
+\[ 9 \times 8 \]
+\[ x \times 2 \] 
+\[ 27 \]
+
+Normally, we think of expressions as things that can be evaluated, meaning that they represent a number but you haven't yet calculated that number. However, technically 27 is a completely valid expression as it represents a value, 27. 
+
+So then why are expressions important if they are just less evaluated numbers? Of course, they make sense for variables as we can't really simplify $x+7$, but what about when we make expressions out of expressions?
+
+\section*{{Expressions} {\large in Expressions} {\normalsize in Expressions} {\small in Expressions} {\footnotesize in Expressions} {\scriptsize in Expressions} {\tiny in Expressions...} }
+
+So what happens when we put an expression within another expression? Well we know that expressions are simply values, we also know that variables are values, so say we had the following expressions: 
+\[ x + 7 \]
+\[ 9+3 \]
+
+We could say, instead of $x$ being equal to just a number, $x$ could be equal to an expression. Specifically the expression $9+3$:
+\[ (9+3) + 7 \]
+
+Whenever we put one expression into another, we make sure to put parenthesis around it like we did above. We have now put an expression within another expression! 
+
+We can solve for the value of this expression like any other expression. We just have to make sure that we solve the expression \textbf{within the parenthesis} first. So, we know that $9+3=12$ and we can say: 
+\[ (9+3) + 7 \]
+\[ (12) + 7 \]
+
+Once we only have one numer left within the parenthesis, we can get rid of the parenthesis:
+\[ 12 +7 \]
+
+And we know how to solve that: 
+\[ 12 + 7 = 19 \]
+
+We did it! We simplified are first compound expression! Now as the title indicates, we can put more expressions into the expressions we are already putting into expressions:
+\[ (9+ (12 + (x + 3))) + x \]
+
+It might look slightly more complicated, but through the same rules we used above we can simplify this (I encourage you to do so if you want some practice). We can also make expressions longer:
+\[ 4 + 5 + 7 \]
+\[ 12 + 14 + 3 + 23 + 1 \]
+
+And combine the two: 
+\[ (12 + 4 + 23) + 93 + (1 +4 +5) \]
+
+Another thing we can do is use multiple operations within an expression: 
+\[ 5 \times (3 + 5) + 12 \]
+
+But this brings up the question of how we simplify the above expression. We of course want to simplify the sub-expression first (the stuff in the parenthesis):
+\[ 5 \times (8) + 12 \]
+\[ 5 \times 8 + 12 \]
+
+But now what? If we do the multiplication first: 
+\[ 40 + 12 \]
+\[ 52 \]
+
+But what about if we do the addition first: 
+\[ 5 \times 20 \]
+\[ 100 \]
+
+We get two very different numbers! And that can't be right, we can't have an expression that somehow represents more than one value and we have no way of knowing which one it is. This is why we have something called order of operations
+
+\section*{Order of Operations}
+So what is the ``order of operations''? Well, as I said eariler, we \textbf{always} evaluate parenthesis first. If there are ever parenthesis in an expression, evaluate the inside of the parenthesis first as if it was its own expression. This means, if there is a set of parenthesis within those parenthesis, you instead do those first. For example:
+\[ 9 + (3 + (4 + 5) + 6) \]
+
+Here, in the initial expression, we see that it has parenthesis, meaning we want to simplify whatever is within them first. This means we want to simplify the following first:
+\[ (3 + (4+5) + 6) \]
+
+But we see that this has parenthesis! So we need to evaluate that first: 
+\[ (4+5) = 9\]
+
+So now we can evaluate the first set of parenthesis:
+\[ 3 + 9 + 6 \]
+\[ 12 + 6 \]
+\[ 18 \]
+
+And finally the whole expression: 
+\[ 9 + 18 = 27 \]
+
+Now it is really important that you always look at expressions and look for parenthesis, and then parenthesis within those parenthesis, and so on. \textbf{Always evaluate parenthesis first.}
+
+But what about after parenthesis? Well we then do multiplication and then addition. That is \textbf{always} the order:
+\[ \text{parenthesis} \to \text{multiplication} \to \text{addition} \]
+
+So let's go back to our example from earlier and try all of this out: 
+\[ 5 \times (3 + 5) + 12 \]
+
+Of course, we immediately see that we have a set of parenthesis in this expression, so we must evaluate whatever is inside first: 
+\[ (3+5) \]
+
+Okay, so we need to treat this as any other expression, meaning we need to start by looking for more parenthesis. 
+
+Luckily, there are none. Now, the next thing we do in the order of operations is multiplication, so is there any multiplication? 
+
+Well we see no multiplication. So the final thing we look for is addition. Do we see addition? 
+
+Yes. So we do the addition: 
+\[ (3+5) = 8 \]
+
+Cool, now that we have solved the parenthesis as much as we can, we can subsitute the result into the larger expression: 
+\[ 5 \times 8 + 12 \]
+
+Now we see no more parenthesis, so we look for multiplication. We see one instance of multiplication, so we solve that: 
+\[ 5 \times 8  = 40\]
+
+And we subsitute that back in: 
+\[ 40 + 12 \] 
+
+Finally, as we see no parenthesis or multiplication, we look for addition. And we have one instance of that, so we solve the addition problem: 
+\[ 40 + 12 = 52 \] 
+
+And we have fully simplified the expression! 
+
+\section*{Notes on Notation}
+We need some new math notation because we have gotten so far! Don't worry though, it is nothing complicated. We just have two new ways of representing multiplication.
+
+Up until now, we have represented multiplication using this cross:
+\[ 5 \times 2 \]
+
+We are, from now on, going to use a dot: 
+\[ 5 \cdot 2 \]
+
+Of course, if you want to keep using the cross, you can, but ideally you start using the dot for nothing else but it is just easier to write (a dot is easier than two lines, right?). 
+
+We the addition of variables, we also have this notation: 
+\[ 5x \]
+
+This simply means:
+\[ 5 \cdot x \]
+
+We don't do this for normal numbers as it can get confusing: 
+\[ 5 \cdot 3 \to 53 \]
+
+Does $5 \cdot 3$ equal the number 53? Because it definitely doesn't. But with variables, it is nice to not even have to write a variable at all. So if you ever have:
+\[ 5 \cdot x \]
+
+You can just write:
+\[ x \]
+
+You can also do this when you have more than one variable: 
+\[ x \cdot y = xy \]
+
+Or with parenthesis: 
+\[ 3 \cdot (5 + 3) = 3(5 + 3) \]
+
+This also means that we can simplify:
+\[ (3 + 5) \cdot (4 + 5) = (3+5)(4+5) \]
+
+
+\section*{Summary}
+
+What have we learned? Well here is a short list: 
+\begin{enumerate}
+    \item Variables are values themselves and can be represented by basically any shape or letter. They are parts of expressions which can be evaluated when you subsitute a number for the variable, but we generally think of the expression as encoding for all possible values of the variable. 
+    \item Expressions are strings of operations and nested expressions which represent values (or numbers)
+    \item The order of operations for simplifying expressions is: parenthesis $\to$ multiplication $\to$ addition
+    \item A dot is the same as the cross for multiplication: $5 \times 3 = 5 \cdot 3$
+    \item You can just remove the multiplication sign with variables and parenthesis: $3 \cdot x = 3x$ and $3 \cdot (6 +5) = 3(6+5)$. 
+\end{enumerate}
+
+\section*{Problems}
+\begin{multicols*}{2}
+    For problems 1-10 simplify the expressions as much as you can. Show all your work.
+    \begin{enumerate}
+        \item $5(5 + 4) $
+        \item $5 + 3 + ( 5 \cdot 4) + x$
+        \item $4 + ( 5 + (6 \cdot 8) \cdot 10) + 4 + (4 \cdot 5)$
+        \item $15 + 7 + x$
+        \item $12 + (5 + x(4 + 2) \cdot 7) + 4$
+        \item $4 \cdot 4 \cdot 4 + x$
+        \item $x + 4 \cdot 4 \cdot 4$
+        \item $x + (4 \cdot (4 \cdot 4))$
+        \item $4 + 5(5 + 3 + (8 + x)) + x$
+        \item $23 + x + a + (3 + a + 2x)$
+        \item What does it mean when you have $3x$? What about $5x$? Can you use this to simplify $x + x$? or $x + 3x + 5x$?
+        \item Simplify the following expression: $5(3 + 4)$. Now simplify: $5(5 + 6)$. Now what about $5(x+y)$ (where $x$ and $y$ are two different variables). Does this always simplify to $5x + 5y$ for every value of $x$ and $y$? 
+        \item Simplify the following expression: $2(3 + 4)$. Now simplify: $3(3 + 4)$. Now what about $a(3+4)$ (where $a$ is a variable). Does this always simplify to $3a + 4a$ for every value of $a$? 
+        \item Use problem 12 and 13 to create a rule for simplifying the expression: $a(x+y)$. 
+        \item Can your rule for problem 14 work with the following expression: $a(x+y+z)$? What about: $a(w+x+y+z)$? What about: $(a+b)(x+y)$? Try to think of a reasonable way to apply your rule to these situations and then try some real numbers in place of the variables to see if your rule actually works. 
+        \item Can you simplify the expression: $(3 + 5) + 7$. Now what about the expression: $3 + (5+7)$. For any numbers $x$, $y$, and $z$, is it always true that: $(x+y) + z = x + (y + z)$? 
+        \item Can you simplify the expression: $(3 \cdot 5) \cdot 7$. Now what about the expression: $ 3 \cdot (5 \cdot 7)$. For any numbers $x$, $y$, and $z$, is it always true that: $(x \cdot y) \cdot z = x \cdot (y \cdot z)$?
+    \end{enumerate}
+\end{multicols*}
+
+\end{document}
