@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{scalerel}
+
+\def\msquare{\mathord{\scalerel*{\Box}{gX}}}
+
+\graphicspath{ {./chap2images/} }
+
+\oddsidemargin=-.3in
+\evensidemargin=-.5in
+\textwidth=7in
+\topmargin=-1in
+\textheight=10in
+
+\parindent=.2in
+\pagestyle{plain}
+
+\title{\textbf{Equations} \\ \large Math 1 - Chapter 4}
+\author{Theo Rode}
+\date{}
+
+\begin{document}
+
+\maketitle
+Even if you don't entirely know what an equation is, you have probably seen one before. So, if you haven't heard of equations, don't worry. 
+
+Like most topics we have explored so far this year, we can gleem a lot from what we think of when we here the term. While this could be due to the fact that they are named based on what they are, as we are learning about it, it can be useful. 
+So, what do you think of when you hear ``equation?'' The notion of ``equality,'' things being equal or the same thing, probably comes to mind. So what does it mean for two things to be ``equal'' in math? 
+
+Well, we know 7 and 7 are the same number. So we can say: 
+\[ 7 = 7 \]
+
+But we also know that $4+3$ equals 7. So we can say: 
+\[ 4 + 3 = 7 \]
+
+These are equations. They say that both expressions on either side of the equal sign are equal, they are the same number. 
+Up until now, we have used equations to say just this, that two numbers are equal. Each side only contains numbers and through addition and multiplication we can check whether or not they are equal. We take a complex set of operations and turn them into a single number, creating our equation. But now that we have learned about variables, we can use these in our equations. 
+
+How would we do this though? It doesn't seem to make sense to say that ``all the possible values'' are equal to just one value. Well, let's run through a senario. 
+
+Say that you have measured the length of the table to be 2 meters. You also know that the length of the table is twice the width. But, you never measured the width of the table and you have lost your measuring tape so you can no longer measure it. How can you find the width of the table? 
+
+Well, you don't know what the width of the table is yet, it could be anything, so we can use a variable to represent it, say $w$. 
+We know that the length of the table is $2$ meters, so we are going to use that. We also know that twice the width must be equal to the length. 
+Here, we see that ``equal,'' meaning that we should be looking for an equation. In particular, an equation that says the length is equal to twice the width. Or: 
+\[ 2 = 2w \]
+
+But how can we go from this to what the width of the table is? This is where we use the power of equality. For example, if we know an expression is the same as another expression (they are the same number), if we multiply each expression by 2, it is the same as multiplying that number by 2, so they must still be equal. For example, we know that $4+3=7$ and $5+2=7$, so we can construct the equation:
+\[ 4+3 = 5+2 \]
+
+Let's say we multiply each expression by 2: 
+\[ 2(4+3) = 2(7) = 2 \cdot 7 = 14 \]
+
+And: 
+\[ 2(5+2) = 2(7) = 2 \cdot 7 = 14 \]
+
+They are still equal! 
+\[ 2(4+3) = 2(5+2) \]
+
+In fact, if we know two expressions are equal (we can create an equation), then as long as we do the same thing to both sides, they will still be equal. If you remember that we said expressions are just numbers, then this is the same as saying if we add 3 to a number and then multiply the number by 5, it will be the same as adding 3 to a number and then multiplying by 5. 
+If we do the same thing to the same number it will still be the same number! I know this is really repetitive, but it is also really important. If we go back to our table problem from earlier, we had the equation: 
+\[ 2 = 2w \]
+
+Of course, we want to know what $w$, the width, alone is equal to. Not twice the width, just the width, because that is what we set out to figure out. So ideally, it alone is an expression on one side of the equation. Well, on the right side we are multiplying $w$ by 2, so to undo that, we need to multiply by the inverse of 2, $\frac{1}{2}$. We have to do this to \textbf{both sides} in order for the equation to still be true: 
+\[ \frac{1}{2} \cdot 2 = \frac{1}{2} \cdot (2w) \]
+
+We can now simplify each expression as we normally do. The left side we have: 
+\[ \frac{1}{2} \cdot 2 \]
+
+If you remember, we defined the inverse of a number as when multiplied by the number, we get the identity. We know that $\frac{1}{2}$ is the inverse of 2. Therefore, that side should be the multiplicative identity: 
+\[ 1 = \frac{1}{2} \cdot (2w) \]
+
+For the right side, we know that we can take out that multiplying by 2 and instead multiply it by the inverse. This again yeilds 1: 
+\[ 1 = 1 \cdot w \]
+
+And we know that 1 times a number is just, the number. So we can say: 
+\[ 1 = w \]
+
+And we have found that the width of the table is 1 meter! If you remember, the length is twice the width, and the length was 2 meters, as we know that twice 1 is 2. So it worked! Our answer makes sense!
+
+Now that was a pretty basic problem for equations which you could have done pretty easily in your head, but in many circumstances, you need to construct equations to get to the answer. Equations are a tool that lets you figure out properties of the world in a way that few others things do. 
+
+\section*{Summary}
+What have we learned in a short list because I know otherwise some people won't learn anything (but come on, it is fun to read my notes, right?): 
+\begin{enumerate}
+    \item Equations are constructed to show that two expressions are the same number. Each expression is put on either side of an equals sign. Example: $4+3 = 5+2$. 
+    \item Expressions in an equation will still be equal if you do the same thing to both of them. In other words, if you perform the same operation on both sides of the equation, it will still be equal. Example: $4+3 = 5+2$ but if we multiply each side by 3, the equation is still true: $3(4+3) = 3(5+2)$.
+    \item Equations can be constructed with variables in order to find the value of something from restrictions on that value (this you might have to actually read the chapter in order to understand better). 
+\end{enumerate}
+
+\newpage
+\section*{Problems}
+\begin{multicols*}{2}
+    For problems 1-20, find the value of the variable $x$: 
+    \begin{enumerate}
+        \item $3 = x$ 
+        \item $5 = x + 4 $
+        \item $8 = x + x + 2$
+        \item $1 = 2x + -3$
+        \item $4(x + 3) = 3 + x$
+        \item $\frac{1}{2} (8 + x) = 4 + 8 + x$ 
+        \item $\frac{1}{3} ( 7 + 2x) = 3x + 9$
+        \item $ \frac{1}{3} + \frac{1}{3} + x = -\frac{1}{3} + 3$
+        \item $ 4 + x + x = 5(6 + x + \frac{1}{5}) $
+        \item $ 3(6 + x) = 6x  $
+    \end{enumerate}
+\end{multicols*}
+
+\end{document}
