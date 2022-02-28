@@ -2,19 +2,19 @@
 
 Math 1 is meant to be taken in 6th grade and is a basic introduction to the concepts in algebra. It dives deaper into some algebra concepts than traditional 6th grade math classes and is definitely a more abstract class. This definitely presents the challenge of getting students interested in abstract concepts as many times abstract ideas in math are unmotivated until years down the line. However, I hope to subsitute this heavy emphasis on abstract math with significant exploration of the ideas/formulas/equations themselves. Being allowed to explore why the distributive property works and is interesting is much more engaging than just being told it exists and to use it. 
 
-## Chapter 1 
+## [Chapter 1](chapter1.pdf) 
 
 Chapter 1 is a bare bones introduction to the year. It talks about addition and multiplication, topics students will already have been very familiar with up to this point, in a much more abstract context. We denounce the evils of subtraction and division in favor of multiplicative and additive inverses and introduce the concept of an "identity." 
 
 The abstract nature of this introduction to operations is meant to directly lead into the ideas of functions such that hopefully working with functions will become much easier down the line. The idea of an inverse is much more important later on in math (and especially in functions) and it is common that students are unable to fully grasp the concept of an inverse function until after years of working with them. The other objective is to give students a refresher as to what the two operations are actually doing, hopefully allowing them to use them in algebra more effectively. 
 
-## Chapter 2 
+## [Chapter 2](chapter2.pdf) 
 
 Chapter 2 is aimed as continuing what was talked about in chapter 1 by explaning what the inverse for multiplication is, multiplying by fractions. The big challenge with this chapter is explaining fractions without the concept of division. Instead, we talk about fractions through the lens of groups and taking parts of those groups. This hopefully allows students to recognize the connection to multiplication much more readily and therefore understand how to work with fractions much better. 
 
 Fractions cause many issues in math even through calculus. They are not taught very well often and that can leave students lost as to how to simplify more complex equations with nested fractions. My hope is to at least side-step the issues surrounding fractions with multiplication and division by not only introducing only multiplication (no division), but also demonstrating better how fractions are the direct inverse of multiplication. From helping many people through various algebra intensive assignments, there is significant trouble when having to divide off a fraction or move multiple terms from one side of an equation to another through multiplication/division. People are never sure if they need to flip the fractions, how to deal with a triple fraction, or really what it means to divide by a fraction. I really want to avoid this as fractions are super powerful and necessary later on in algebra and a good foundation in fractions is possibly one of the better things a 6th grade student can recieve. 
 
-## Chapter 3
+## [Chapter 3](chapter3.pdf)
 
 Chapter 3 introduces students to the very basics of algebra. Concepts like variables and simplification are central to this chapter and are used to push students to develop some understanding of constructing algebraic rules themselves (assosiative property, distributive property, etc). 
 
