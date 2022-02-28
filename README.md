@@ -17,3 +17,6 @@ I hope my rambling introduction wasn't too hard to follow, but if it was, my mat
 ## Topics
 
 I have split my class notes/topics into classes for each year from 6th to 12th grade. It will take a while for me to fully fill out all of the topics I want to cover, so right now they are not all there yet. You can access information on the topics covered below: 
+
+- **[Math 1](Math1/README.md)** 
+    - Math 1, or 6th grade math, focuses on general algebraic skills and understanding. Students will be pushed to develop strong algebraic skills which will be necessary for almost all math in their future. 
